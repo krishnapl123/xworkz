@@ -10,16 +10,20 @@ public class Moon {
 		this("white");
 		
 		System.out.println("This is default constructor..");
+	
 	}
 	Moon(String color ){
 		this("white","Round");
 		
 		System.out.println("This is single parameterized  constructor..");
+  //	this.color=color;
 	}
 	
   Moon(String color,String shape ){
 		this("white","round",450);
 		System.out.println("This is two parameterized  constructor..");
+	//	this.color=color;
+		//this.shape=shape;
 	}
   
   Moon(String color,String shape,int size ){
@@ -28,7 +32,7 @@ public class Moon {
 		
 		this.color=color;
         this.shape=shape;
-        this.size=250;
+        this.size=size;
 	
 
 }
