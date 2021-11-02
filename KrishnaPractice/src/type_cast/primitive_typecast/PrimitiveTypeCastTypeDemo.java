@@ -21,7 +21,12 @@ public class PrimitiveTypeCastTypeDemo {
 		char c='A';
 		int o=c;
 		
+		char h='@';
+		int p=h;
 		System.out.println("o: " +o);
+		System.out.println("p: " +p);
+		
+		
 	
 	}
 }
