@@ -1,8 +1,16 @@
 package strings;
 
+import java.util.Scanner;
+
 public class PalindromeString {
 	
 	public static void main(String args[]) {
+		
+		
+		
+	//	System.out.println("enter the string");
+		
+	//	Scanner name=new Scanner(System.in);
 		
 		String name="madam";
 		String rev="";
