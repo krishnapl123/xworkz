@@ -9,7 +9,7 @@ FinalTest(){
 	
 }
 FinalTest(int a){
-	X=20;
+	X=a;
 }
 
 
