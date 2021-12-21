@@ -7,6 +7,7 @@ public class Tester {
 	public static void main(String args[]) {
 		
 		Collection collection=new ArrayList();
+
 		
 		collection.add(new String("Xworkz"));
 		collection.add(false);

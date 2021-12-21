@@ -13,5 +13,19 @@ public interface Asset {
 	void deleteAsset(Object object);
 	
 	void listOfAllAssets();
+	
+	void removeLastAsset();
+	
+	void removeFirstAsset();
+	
+	void getFirstAsset();
+	
+	void getLastAsset();
+	
+	void addFirstAsset(Object object);
+	
+	void addLastAsset(Object object);
+
+
 
 }

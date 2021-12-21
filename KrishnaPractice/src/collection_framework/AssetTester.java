@@ -18,6 +18,24 @@ public class AssetTester {
 		
 		hpAsset.listOfAllAssets();
 		
+		Software software1=new Software("Porter",12.1,true,true);
+		
+		hpAsset.addAsset(software1);
+		
+        Software software2=new Software("DigiLocker",13.1,true,true);
+		
+		hpAsset.addAsset(software2);
+		
+        Software software3=new Software("jioMart",14.1,true,true);
+		
+		hpAsset.addAsset(software3);
+		
+		hpAsset.listOfAllAssets();
+		
+		
+		
+		
+		
 	}
 
 }

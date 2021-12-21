@@ -6,6 +6,7 @@ import java.util.*;
 public class AssetContainer implements Asset {
 	
 		Collection collection=new ArrayList();
+		LinkedList list=new LinkedList();
 
 	@Override
 	public void addAsset(Object object) {
@@ -35,6 +36,8 @@ public class AssetContainer implements Asset {
 		container.add(index, bookAsset);
 	}
 
+	
+
 	@Override
 	public void deleteAsset(Object object) {
 		System.out.println("Involked deleteAsset");
@@ -46,6 +49,46 @@ public class AssetContainer implements Asset {
 	public void listOfAllAssets() {
 		System.out.println("Involked listAsset");
 		System.out.println(collection);
+		
+	}
+	
+	@Override
+	public void removeLastAsset() {
+     System.out.println("Involked removeLastAsset");
+     list.removeLast();
+    
+		
+	}
+
+	@Override
+	public void removeFirstAsset() {
+		System.out.println("Involked removeFirstAsset");
+		
+	}
+
+	@Override
+	public void getFirstAsset() {
+       System.out.println("Involked getFirstAsset");
+       
+		
+	}
+
+	@Override
+	public void getLastAsset() {
+		System.out.println("Involked getLastAsset");
+		
+	}
+
+	@Override
+	public void addFirstAsset(Object object) {
+		System.out.println("Involked addFirstAsset");
+	
+		
+	}
+
+	@Override
+	public void addLastAsset(Object object) {
+		System.out.println("Involked addLastAsset");
 		
 	}
 }
