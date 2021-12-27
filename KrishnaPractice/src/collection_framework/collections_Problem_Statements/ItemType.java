@@ -8,13 +8,14 @@ public class ItemType {
 	
 	
 	public ItemType() {
+		super();
 		
 	}
 
 
 	@Override
 	public String toString() {
-		return String.format("%-20s%-20s%-20s%", name, deposit, costperDay);
+		return String.format("%-20s%-20s%-20s%\n", name, deposit, costperDay);
 	}
 
 

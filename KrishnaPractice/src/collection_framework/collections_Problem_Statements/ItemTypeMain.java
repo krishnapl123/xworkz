@@ -31,7 +31,7 @@ public class ItemTypeMain {
 		}while("y".equals(str));
 		
 		Iterator<ItemType> itr=collection.iterator();
-		System.out.printf("%-20s%-20.1f%-20.1f", "name", "deposit", "costperDay");
+		System.out.printf("%-20s%-20s%-20s%\n", "name", "deposit", "costperDay");
 		System.out.println();
 		
 		while(itr.hasNext()) {
