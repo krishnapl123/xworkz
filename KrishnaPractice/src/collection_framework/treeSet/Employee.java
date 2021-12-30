@@ -1,4 +1,4 @@
-package collection_framework;
+package collection_framework.treeSet;
 
 public class Employee implements Comparable<Employee>{
 	
@@ -66,7 +66,5 @@ public class Employee implements Comparable<Employee>{
 	public Employee() {
 		// TODO Auto-generated constructor stub
 	}
-	
-	
 
 }
