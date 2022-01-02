@@ -1,6 +1,17 @@
 package collection_framework.treeSet;
 
 public class Employee implements Comparable<Employee>{
+		
+	private int id;
+	private String name;
+	private double salary;
+	private String company;
+	private String place;
+	
+	public Employee() {
+		// TODO Auto-generated constructor stub
+	}
+
 	
 	public Employee(int id, String name, double salary, String company, String place) {
 		super();
@@ -10,11 +21,8 @@ public class Employee implements Comparable<Employee>{
 		this.company = company;
 		this.place = place;
 	}
-	@Override
-	public String toString() {
-		return "Employee [id=" + id + ", name=" + name + ", salary=" + salary + ", company=" + company + ", place="
-				+ place + "]\n";
-	}
+	
+	
 	public int getId() {
 		return id;
 	}
@@ -45,11 +53,7 @@ public class Employee implements Comparable<Employee>{
 	public void setPlace(String place) {
 		this.place = place;
 	}
-	private int id;
-	private String name;
-	private double salary;
-	private String company;
-	private String place;
+	
 	
 	@Override
 	public int compareTo(Employee o) {
@@ -62,9 +66,11 @@ public class Employee implements Comparable<Employee>{
 		return 0;	
 	}
 	
+	@Override
+	public String toString() {
+		return "Employee [id=" + id + ", name=" + name + ", salary=" + salary + ", company=" + company + ", place="
+				+ place + "]\n";}
 	
-	public Employee() {
-		// TODO Auto-generated constructor stub
-	}
-
+	
+	
 }
