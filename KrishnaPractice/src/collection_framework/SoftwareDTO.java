@@ -2,7 +2,11 @@ package collection_framework;
 
 public class SoftwareDTO {
 
-private String name;
+    private int softwareId;
+	
+	private String name;
+	
+	private double price;
 	
 	private double version;
 	

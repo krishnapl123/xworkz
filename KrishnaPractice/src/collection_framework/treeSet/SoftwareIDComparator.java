@@ -12,5 +12,4 @@ public class SoftwareIDComparator implements Comparator<SoftwareDTO> {
 	    
 		return i1.compareTo(i2);
 	}
-
 }
